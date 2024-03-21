@@ -1,0 +1,84 @@
+@font-face {
+    font-family: varsityTeam;
+    src: url(../fonts/varsity_team/VarsityTeam-Bold.otf);
+}
+
+@keyframes mudaCor {
+    0%{
+        color:rgb(145, 80, 20);
+    }
+    50%{
+        color: rgb(202, 158, 36);
+    }
+    100%{
+        color: rgb(226, 95, 43);
+    }
+    
+}
+
+:root{
+    --corPrimaria: rgb(46, 43, 43); 
+    --corSecundaria: beige;
+    --corPadrao: rgb(241, 225, 172);
+    --branco: white;
+    --preto: black;
+    --fonteUm: varsityTeam;
+    --fonteDois: 'trebuchet'; 
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fonteDois);
+}
+
+#page{
+   width: 100%;
+   height: 100vh;
+   background-color: rgb(238, 134, 96);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main{
+    width: 70%;
+    height: 80%;
+    background-color: var(--corSecundaria);
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+#efeito , #formulario {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+#efeito{
+    background-image: url(../images/kara-eads-0y8p69vwIYM-unsplash.jpg);
+    background-size: cover;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    background-image: url;
+    background: rgb(255, 255, 255);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9687062324929971) 100%);;
+}
+
+h3{
+    animation: mudaCor;
+    animation-duration: 5s;
+
+}
+
+#formulario form{
+    display: flex;
+    
+}
+     
